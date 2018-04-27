@@ -5,7 +5,7 @@ const elementHash = (v) => {
     return hash([v])
 }
 
-module.exports = (expected, value, args) => {
+const compare = (expected, value, args) => {
     let result
     if (expected instanceof Array && value instanceof Array) {
         const expectedHashes = expected.map(elementHash).sort()
@@ -20,4 +20,6 @@ module.exports = (expected, value, args) => {
     }
     return result
 }
+
+module.exports = (expected, value, args) => { return compare(expected, value, args) }
 
