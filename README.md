@@ -1,5 +1,7 @@
 # js-object-compare - Compare and diff JavaScript Objects
 
+[![Build Status](https://travis-ci.org/erikns/js-object-compare.svg?branch=master)](https://travis-ci.org/erikns/js-object-compare)
+
 Small, simple library to compare to JavaScript objects. 
 
 ## Installation
