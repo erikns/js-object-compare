@@ -1,0 +1,15 @@
+{
+  "name": "js-object-compare",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Sørensen",
+  "license": "MIT",
+  "dependencies": {
+    "object-hash": "^1.3.0",
+    "variable-diff": "^1.1.0"
+  }
+}
